@@ -1,11 +1,12 @@
 # KakuroSolver-Backtracking
 Solves a Kakuro Puzzle using Backtracking 
 
+Kakuro puzzles are similar to crosswords, but use digits (from 1 to 9) instead of letters.
 
-: Kakuro puzzles are similar to crosswords, but use digits (from 1 to 9) instead of letters.
 Rules :
 - All empty cells need to be filled in with digits, in such a way that all the given sums are respected.
 - You are not allowed to use the same digit more than once to obtain a given sum.
+- 
 Notation :
 - 'X' : represents a cell that you don't need to fill.
 - Empty cell : represents a cell that you need to fill with a digit (1 - 9).
@@ -14,7 +15,8 @@ Notation :
 - X\ : the vertical sum X of the cells downwards,
 - \X : the horizontal sum X of the cells to the right,
 - X\Y : the vertical sum X of the cells downwards, and the horizontal sum Y of the cells to the right.
-Each Kakuro puzzle has an unique solution. Good luck!
+
+
 Example 1:
 height = 3, width = 3
 | X | 9\ | 11\ |
@@ -36,6 +38,7 @@ So the solution is:
 | X | 9\ | 11\ |
 | \17 | 8 | 9 |
 | \3 | 1 | 2 |
+
 Example 2:
 height = 5, width = 5
 | X | 17\ | 6\ | X | X |
